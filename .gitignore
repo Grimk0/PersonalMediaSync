@@ -12,6 +12,7 @@ local.properties
 # Android Studio
 .idea/
 *.iws
+*.iml
 *.hprof
 
 # Kotlin/Java
