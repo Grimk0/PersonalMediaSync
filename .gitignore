@@ -1,0 +1,54 @@
+# Android/Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration
+local.properties
+*.iml
+
+# Android Studio
+.idea/
+*.iws
+*.hprof
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.apk
+*.ap_ 
+*.dex
+*.class
+*.so
+
+# Media files from device
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+*.avi
+
+# Backup or temp files
+*.bak
+*.tmp
+
+# Environment files
+.env
+
+# Misc
+captures/
+outputs/
