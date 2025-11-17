@@ -10,7 +10,6 @@ An Android app that backs up photos and videos from your device to a remote serv
 - Uploads media files to a FastAPI backend
 - Supports images and videos
 - Uploads run in background threads to keep the UI responsive
-- Shows upload status with Toast messages
 
 ---
 
@@ -18,7 +17,7 @@ An Android app that backs up photos and videos from your device to a remote serv
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/MediaBackup.git
+git clone https://github.com/yourusername/MediaSync.git
 
 2. Open the project in Android Studio
 3. Build and run on a device (Android 13 / API 33+ recommended)
