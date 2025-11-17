@@ -14,7 +14,6 @@ import okhttp3.RequestBody.Companion.toRequestBody
 class MainActivity : ComponentActivity() {
 
 
-    val ServerIP = ""
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     val permissions = arrayOf(
         android.Manifest.permission.READ_MEDIA_IMAGES,
@@ -109,7 +108,7 @@ class MainActivity : ComponentActivity() {
                 val requestBody = inputStream.readBytes().toRequestBody()
 
                 val request = Request.Builder()
-                    .url("http://10.0.0.201:12000/upload")   // <-- Change accordingly
+                    .url("http://YOUR_LAN_IPADDRESS:12000/upload")   // <-- Change accordingly
                     .addHeader("filename", getFileName(uri))
                     .post(requestBody)
                     .build()
